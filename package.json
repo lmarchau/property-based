@@ -1,0 +1,44 @@
+{
+  "name": "fast-check-examples",
+  "version": "1.0.0",
+  "description": "Examples of usage of fast-check",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^7.22.0",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.8",
+    "@testing-library/user-event": "^12.1.0",
+    "fast-check": "*",
+    "lodash": "^4.17.19",
+    "pure-rand": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/lodash": "^4.14.159",
+    "@types/react": "^16.9.44",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
+  }
+}

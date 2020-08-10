@@ -1,0 +1,12 @@
+docs/
+example/
+node_modules/
+lib/
+lib-*/
+perf/
+test/esm/
+test/legacy/
+test/type/
+test/rollup/
+buildTypes.js
+jest*.js
